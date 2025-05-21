@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a077c703.css",
-    "main.js": "/static/js/main.b6089cd7.js",
+    "main.css": "/static/css/main.bed4bc61.css",
+    "main.js": "/static/js/main.70b04c27.js",
     "static/js/453.92217e47.chunk.js": "/static/js/453.92217e47.chunk.js",
     "static/media/profile.png": "/static/media/profile.6cab7c03b449083e4491.png",
     "static/media/ubuntu-latin-ext-400-normal.woff2": "/static/media/ubuntu-latin-ext-400-normal.9967dbf10fc3cb92edfb.woff2",
@@ -17,12 +17,12 @@
     "static/media/ubuntu-greek-400-normal.woff": "/static/media/ubuntu-greek-400-normal.bf1c79df1b0e27105c90.woff",
     "static/media/ubuntu-greek-ext-400-normal.woff": "/static/media/ubuntu-greek-ext-400-normal.ae079d7503d209554bf8.woff",
     "index.html": "/index.html",
-    "main.a077c703.css.map": "/static/css/main.a077c703.css.map",
-    "main.b6089cd7.js.map": "/static/js/main.b6089cd7.js.map",
+    "main.bed4bc61.css.map": "/static/css/main.bed4bc61.css.map",
+    "main.70b04c27.js.map": "/static/js/main.70b04c27.js.map",
     "453.92217e47.chunk.js.map": "/static/js/453.92217e47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a077c703.css",
-    "static/js/main.b6089cd7.js"
+    "static/css/main.bed4bc61.css",
+    "static/js/main.70b04c27.js"
   ]
 }
