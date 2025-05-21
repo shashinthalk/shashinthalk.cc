@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.124791f0.css",
+    "main.js": "/static/js/main.0db34354.js",
+    "static/js/453.92217e47.chunk.js": "/static/js/453.92217e47.chunk.js",
+    "static/media/profile.png": "/static/media/profile.6cab7c03b449083e4491.png",
+    "static/media/ubuntu-latin-ext-400-normal.woff2": "/static/media/ubuntu-latin-ext-400-normal.9967dbf10fc3cb92edfb.woff2",
+    "static/media/ubuntu-latin-400-normal.woff2": "/static/media/ubuntu-latin-400-normal.2f02effe392a63dc07a5.woff2",
+    "static/media/ubuntu-cyrillic-ext-400-normal.woff2": "/static/media/ubuntu-cyrillic-ext-400-normal.80c010be16bde8b7e613.woff2",
+    "static/media/ubuntu-latin-ext-400-normal.woff": "/static/media/ubuntu-latin-ext-400-normal.da2e1b790a2d4c962274.woff",
+    "static/media/ubuntu-cyrillic-400-normal.woff2": "/static/media/ubuntu-cyrillic-400-normal.5baf1f37de97e50ab654.woff2",
+    "static/media/ubuntu-latin-400-normal.woff": "/static/media/ubuntu-latin-400-normal.933b7e9d7979ff75be23.woff",
+    "static/media/ubuntu-greek-400-normal.woff2": "/static/media/ubuntu-greek-400-normal.038ee74fde7a2c872ee2.woff2",
+    "static/media/ubuntu-greek-ext-400-normal.woff2": "/static/media/ubuntu-greek-ext-400-normal.7f5049065c02fb5e0628.woff2",
+    "static/media/ubuntu-cyrillic-ext-400-normal.woff": "/static/media/ubuntu-cyrillic-ext-400-normal.fe8ca02775a36a7640cb.woff",
+    "static/media/ubuntu-cyrillic-400-normal.woff": "/static/media/ubuntu-cyrillic-400-normal.1579f2e8bda59d1bb53e.woff",
+    "static/media/ubuntu-greek-400-normal.woff": "/static/media/ubuntu-greek-400-normal.bf1c79df1b0e27105c90.woff",
+    "static/media/ubuntu-greek-ext-400-normal.woff": "/static/media/ubuntu-greek-ext-400-normal.ae079d7503d209554bf8.woff",
+    "index.html": "/index.html",
+    "main.124791f0.css.map": "/static/css/main.124791f0.css.map",
+    "main.0db34354.js.map": "/static/js/main.0db34354.js.map",
+    "453.92217e47.chunk.js.map": "/static/js/453.92217e47.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.124791f0.css",
+    "static/js/main.0db34354.js"
+  ]
+}
