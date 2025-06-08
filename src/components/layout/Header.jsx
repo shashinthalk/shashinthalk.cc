@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom"
 import { useEffect, useState } from 'react';
 import { CgMenuGridO } from "react-icons/cg";
+import { FaGithub } from "react-icons/fa";
 import SideBarPannel from "../ui/SideBarPannel";
 
 export default function Header() {
 
   const navigation = [
-    { name: 'About', to: 'about', current: true },
-    { name: 'Projects', to: 'projects', current: false },
+    { name: 'Life', to: 'about', current: true },
     { name: 'Contact', to: 'contact', current: false }
   ]
 
@@ -46,12 +46,22 @@ export default function Header() {
                 <Link to='/' className="">shashinthalk.cc</Link>
               </div>
               <nav className='hidden md:block'>
-                  <ul className="flex space-x-6">
+                  <ul className="flex space-x-6 items-center">
                       {
                         navigation.map((navItem) => (
                           <li><Link to={navItem.to} className="text-lg hover:text-links-hover">{navItem.name}</Link></li>
                         ))
                       }
+                      <li>
+                        <a 
+                          href="https://github.com/shashinthalk" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-2xl hover:text-links-hover"
+                        >
+                          <FaGithub />
+                        </a>
+                      </li>
                   </ul>
               </nav>
               <button onClick={() => setMenuOpen(true)} className="md:hidden text-3xl">

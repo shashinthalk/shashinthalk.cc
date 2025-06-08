@@ -10,11 +10,12 @@ export default function Footer() {
                 HeadingStyle='text-heading-text'
                 DescriptionStyle='text-heading-text'
                 title="shashinthalk.cc"
-                subtitle="Discover sustainable adventures that blend nature, innovation, and relaxation."
+                subtitle="Crafted with code, creativity, and coffee.
+                  Let’s build something meaningful together."
               />
             </SectionWrapper>
-            <div className="flex justify-center border-t border-gray-300 p-4 text-white">
-              <p>Developed By Nishan Shashintha</p>
+            <div className="flex  border-t border-gray-300 p-4 text-white">
+              <p>© {new Date().getFullYear()} Nishan Shashintha. All rights reserved.</p>
             </div>
           </div>
         </>

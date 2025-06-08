@@ -1,0 +1,54 @@
+/* Rainbow Border Effect */
+.rainbow-border {
+  position: relative;
+}
+
+.rainbow-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: inherit;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: animateRainbow 8s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.rainbow-border > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Animation speed variants */
+.rainbow-border-fast::before {
+  animation-duration: 4s;
+}
+
+.rainbow-border-slow::before {
+  animation-duration: 12s;
+}
+
+/* Border width variants */
+.rainbow-border-thin::before {
+  padding: 1px;
+}
+
+.rainbow-border-thick::before {
+  padding: 3px;
+}
+
+@keyframes animateRainbow {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+} 

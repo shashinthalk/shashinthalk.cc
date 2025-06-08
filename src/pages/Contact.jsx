@@ -7,7 +7,7 @@ import MetaTagManager from "../components/layout/MetaTagManager";
 const Contact = () => {
   return (
     <>
-      <MetaTagManager title={'Nishan Shashintha | Contact'} description={'As a Full Stack Web Developer, I specialize in designing and developing end-to-end digital solutions that balance performance and user experience. Beyond my core work, I enjoy exploring creative and tech-driven side projects that keep me inspired and forward-thinking.'} />
+      <MetaTagManager title={'Nishan Shashintha | Contact'} description={'As a Full Stack Engineer, I specialize in designing and developing end-to-end digital solutions that balance performance and user experience. Beyond my core work, I enjoy exploring creative and tech-driven side projects that keep me inspired and forward-thinking.'} />
       <SectionWrapper className='bg-theme-gradient'>
         <div className='mt-[10%] mb-[5%] w-full flex justify-center'>
           <div className='flex-row p-5 containe justify-center'>

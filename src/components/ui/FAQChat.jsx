@@ -8,7 +8,12 @@ export default function FAQChat() {
   const [isActive, setIsActive] = useState(false);
 
   const handleSend = async () => {
-    if (input.trim() === "" || input.length < 10) {
+    if (input.trim() === "") {
+      // Could add user feedback here
+      return;
+    }
+    if (input.trim().length < 10) {
+      // Could add user feedback: "Please enter at least 10 characters"
       return;
     }
     setIsActive(false);
@@ -74,7 +79,7 @@ export default function FAQChat() {
         </div>
         )}
 
-      <div className="flex items-center gap-2 p-3 bg-background border-t rounded-2xl border-border-color">
+      <div className="flex items-center gap-2 p-3 bg-background rounded-2xl rainbow-border">
         <div className="relative flex-1">
           <span className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">
             <svg
@@ -97,7 +102,7 @@ export default function FAQChat() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && handleSend()}
-            placeholder="Ask someting about me..."
+            placeholder="Ask something about me..."
             className="pl-10 bg-background text-heading-text pr-4 py-2 w-full text-base rounded-full border border-border-color focus:outline-none focus:ring-2 focus:ring-border-color"
           />
         </div>

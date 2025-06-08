@@ -18,14 +18,13 @@ export default function CareerTimeline() {
         {
             backgroundColor: 'black',
             fontColor: 'white',
-            position:'FULL STACK WEB DEVELOPER',
-            subheading:'TRANSPIRE CONSULTANTS | AUSTRALIA | Remote',
-            description:`Responsible for maintaining and building dynamic, responsive user interfaces and backend web services. Experienced
-                        in managing and customizing WordPress websites and plugins, alongside developing and maintaining Webflow sites.
-                        Skilled in deploying React and Node.js applications, configuring domains, managing hosting environments, and
-                        ensuring software quality, scalability, and adaptability to evolving product requirements with strong database
-                        knowledge.`,
-            duration:'From 2023 to current',
+            position:'Full Stack Engineer',
+            subheading:'Transpire Consultants | Australia | Remote',
+            description:`Crafting sleek, responsive web interfaces and powerful backend services.
+                        Customizing WordPress and Webflow sites with seamless UX.
+                        Deploying scalable apps using React, Node.js, and Docker.
+                        Managing hosting, domains, and cloud infrastructure with care.`,
+            duration:'Nov 2023 – Present',
             technologies:{
                 techstacks: ['react','node','wordpress','php','webflow','mysql','mongodb','aws','docker','kanban']
             }
@@ -33,14 +32,55 @@ export default function CareerTimeline() {
         {
             backgroundColor: '#222831',
             fontColor: '#DFD0B8',
-            position:'FULL STACK WEB DEVELOPER',
-            subheading:'TRANSPIRE CONSULTANTS | AUSTRALIA | Remote',
-            description:`Responsible for maintaining and building dynamic, responsive user interfaces and backend web services. Experienced
-                        in managing and customizing WordPress websites and plugins, alongside developing and maintaining Webflow sites.
-                        Skilled in deploying React and Node.js applications, configuring domains, managing hosting environments, and
-                        ensuring software quality, scalability, and adaptability to evolving product requirements with strong database
-                        knowledge.`,
-            duration:'From 2023 to current',
+            position:'Full Stack Engineer',
+            subheading:'Datasprig (Pvt) Ltd | Sri Lanka | Hybrid',
+            description:`Delivered high-performance WordPress plugins and custom features.
+                        Handled domain and server configurations with precision.
+                        Led Webflow development and client-facing enhancements.
+                        Collaborated in Agile teams for continuous delivery.`,
+            duration:'Dec 2022 – Mar 2024',
+            technologies:{
+                techstacks: ['react','node','wordpress','php','webflow','mysql','mongodb','aws','docker','kanban']
+            }
+        },
+        {
+            backgroundColor: 'black',
+            fontColor: 'white',
+            position:'Freelance Web Engineer',
+            subheading:'Fiverr | Remote',
+            description:`Over 100 web projects built for clients across the globe.
+                        Specialized in custom themes, plugins, and Laravel apps.
+                        Integrated payment gateways and third-party APIs.
+                        Balanced tech expertise with strong client communication.`,
+            duration:'Jul 2021 – May 2024',
+            technologies:{
+                techstacks: ['react','node','wordpress','php','webflow','mysql','mongodb','aws','docker','kanban']
+            }
+        },
+        {
+            backgroundColor: '#222831',
+            fontColor: '#DFD0B8',
+            position:'Frontend Engineer',
+            subheading:'Sotrosinfotech | india | Remote',
+            description:`Combined elegant UI with stable backend logic.
+                    Migrated and maintained sites across platforms.
+                    Added analytics and marketing tools for insights.
+                    Handled DNS, hosting, and payment integration.`,
+            duration:'May 2021 – Jan 2023',
+            technologies:{
+                techstacks: ['react','node','wordpress','php','webflow','mysql','mongodb','aws','docker','kanban']
+            }
+        },
+        {
+            backgroundColor: 'black',
+            fontColor: 'white',
+            position:'Associate Web Engineer',
+            subheading:'Acecam pvt ltd | Sri Lanka | Onsite',
+            description:`Built secure backend systems using Spring Boot and LDAP.
+                        Created asset management solutions for enterprise use.
+                        Contributed to Laravel development and frontend UIs.
+                        Worked closely with teams to ship user-friendly features.`,
+            duration:'Oct 2020 – Apr 2022',
             technologies:{
                 techstacks: ['react','node','wordpress','php','webflow','mysql','mongodb','aws','docker','kanban']
             }
