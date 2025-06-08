@@ -1,28 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d925473.css",
-    "main.js": "/static/js/main.8a08983f.js",
+    "main.css": "/static/css/main.9183b237.css",
+    "main.js": "/static/js/main.2d2bb1cf.js",
     "static/js/453.92217e47.chunk.js": "/static/js/453.92217e47.chunk.js",
+    "static/media/3.png": "/static/media/3.bb3aee98b37e1be34330.png",
     "static/media/profile.png": "/static/media/profile.6cab7c03b449083e4491.png",
-    "static/media/ubuntu-latin-ext-400-normal.woff2": "/static/media/ubuntu-latin-ext-400-normal.9967dbf10fc3cb92edfb.woff2",
-    "static/media/ubuntu-latin-400-normal.woff2": "/static/media/ubuntu-latin-400-normal.2f02effe392a63dc07a5.woff2",
-    "static/media/ubuntu-cyrillic-ext-400-normal.woff2": "/static/media/ubuntu-cyrillic-ext-400-normal.80c010be16bde8b7e613.woff2",
-    "static/media/ubuntu-latin-ext-400-normal.woff": "/static/media/ubuntu-latin-ext-400-normal.da2e1b790a2d4c962274.woff",
-    "static/media/ubuntu-cyrillic-400-normal.woff2": "/static/media/ubuntu-cyrillic-400-normal.5baf1f37de97e50ab654.woff2",
-    "static/media/ubuntu-latin-400-normal.woff": "/static/media/ubuntu-latin-400-normal.933b7e9d7979ff75be23.woff",
-    "static/media/ubuntu-greek-400-normal.woff2": "/static/media/ubuntu-greek-400-normal.038ee74fde7a2c872ee2.woff2",
-    "static/media/ubuntu-greek-ext-400-normal.woff2": "/static/media/ubuntu-greek-ext-400-normal.7f5049065c02fb5e0628.woff2",
-    "static/media/ubuntu-cyrillic-ext-400-normal.woff": "/static/media/ubuntu-cyrillic-ext-400-normal.fe8ca02775a36a7640cb.woff",
-    "static/media/ubuntu-cyrillic-400-normal.woff": "/static/media/ubuntu-cyrillic-400-normal.1579f2e8bda59d1bb53e.woff",
-    "static/media/ubuntu-greek-400-normal.woff": "/static/media/ubuntu-greek-400-normal.bf1c79df1b0e27105c90.woff",
-    "static/media/ubuntu-greek-ext-400-normal.woff": "/static/media/ubuntu-greek-ext-400-normal.ae079d7503d209554bf8.woff",
+    "static/media/4.jpg": "/static/media/4.88c2326cf6f144788bea.jpg",
+    "static/media/1.jpg": "/static/media/1.cba7ed104f53eff37c56.jpg",
+    "static/media/fiverr-icon.png": "/static/media/fiverr-icon.1b375050798cea1b3ca8.png",
+    "static/media/2.jpg": "/static/media/2.2b86381bcdff6af4fe75.jpg",
     "index.html": "/index.html",
-    "main.2d925473.css.map": "/static/css/main.2d925473.css.map",
-    "main.8a08983f.js.map": "/static/js/main.8a08983f.js.map",
+    "main.9183b237.css.map": "/static/css/main.9183b237.css.map",
+    "main.2d2bb1cf.js.map": "/static/js/main.2d2bb1cf.js.map",
     "453.92217e47.chunk.js.map": "/static/js/453.92217e47.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d925473.css",
-    "static/js/main.8a08983f.js"
+    "static/css/main.9183b237.css",
+    "static/js/main.2d2bb1cf.js"
   ]
 }
