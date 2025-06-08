@@ -62,6 +62,8 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
+    "eslint": "^9.28.0",
+    "eslint-plugin-react": "^7.37.5",
     "gh-pages": "^6.3.0"
   }
 }
