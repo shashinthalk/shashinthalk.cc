@@ -1,3 +1,5 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { Link } from 'react-router-dom';
 
@@ -18,5 +20,13 @@ function Button({ children, className = '', urlto='#', target='_blank', onClick 
     </Link>
   );
 }
+
+Button.propTypes = {
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string,
+  urlto: PropTypes.string,
+  target: PropTypes.string,
+  onClick: PropTypes.func
+};
 
 export default Button;

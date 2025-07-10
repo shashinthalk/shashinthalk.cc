@@ -53,11 +53,17 @@ module.exports = {
         'x-12': 'rotateX(12deg)',
       },
       transformStyle: {
-        'preserve-3d': 'preserve-3d',
+        '3d': 'preserve-3d',
       },
       perspective: {
         '1000': '1000px',
-      }
+      },
+      scale: {
+        '102': '1.02',
+      },
+      transitionProperty: {
+        'transform': 'transform',
+      },
     },
   },
   plugins: [

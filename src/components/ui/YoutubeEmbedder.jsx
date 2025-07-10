@@ -1,4 +1,7 @@
-export default function YoutubeEmbedder( {videoId} ) {
+import React from 'react';
+import PropTypes from 'prop-types';
+
+export default function YoutubeEmbedder({ videoId }) {
   return (
     <div className="relative pt-[56.25%] mx-4 md:mx-0">
       <iframe
@@ -11,4 +14,8 @@ export default function YoutubeEmbedder( {videoId} ) {
       ></iframe>
     </div>
   );
+}
+
+YoutubeEmbedder.propTypes = {
+  videoId: PropTypes.string.isRequired
 };

@@ -1,3 +1,5 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 import ScrambledText from "./ScrambledText";
 
 const SectionHeading = ({ title, subtitle, HeadingStyle = "", DescriptionStyle = "" }) => (
@@ -16,5 +18,12 @@ const SectionHeading = ({ title, subtitle, HeadingStyle = "", DescriptionStyle =
     </p>
   </div>
 );
+
+SectionHeading.propTypes = {
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  HeadingStyle: PropTypes.string,
+  DescriptionStyle: PropTypes.string
+};
 
 export default SectionHeading;

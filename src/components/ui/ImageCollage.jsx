@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const ImageCollage = ({ images }) => {
   return (
@@ -21,6 +22,15 @@ const ImageCollage = ({ images }) => {
       </div>
     </div>
   );
+};
+
+ImageCollage.propTypes = {
+  images: PropTypes.arrayOf(
+    PropTypes.shape({
+      url: PropTypes.string.isRequired,
+      alt: PropTypes.string
+    })
+  ).isRequired
 };
 
 export default ImageCollage; 

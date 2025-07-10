@@ -1,3 +1,4 @@
+import React from 'react';
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
@@ -11,32 +12,22 @@ import fiverr from '../assets/fiverr-icon.png';
 import YoutubeEmbedder from '../components/ui/YoutubeEmbedder';
 import MetaTagManager from "../components/layout/MetaTagManager";
 import ScrambledText from '../components/ui/ScrambledText';
+import renuka from '../assets/rchp.jpg';
+import mlchatbot from '../assets/cb.jpg';
 
 const cardData = [
   {
-    title: "Eco Safari Experience",
-    description: "Explore wildlife with zero emissions and elevated trails.",
-    image: 'https://i.ytimg.com/vi/9admKGpM3A0/maxresdefault.jpg',
-    link: "#",
+    title: "Renuka City Hotel",
+    description: "Wordpress website development, hosting and regular maintenance. Domain and hosting configuration.",
+    image: renuka,
+    link: "https://www.renukacityhotel.com",
   },
   {
-    title: "Mountain Adventure",
-    description: "Discover breathtaking views and hiking trails.",
-    image: 'https://i.ytimg.com/vi/9admKGpM3A0/maxresdefault.jpg',
-    link: "#",
-  },
-  {
-    title: "Forest Retreat",
-    description: "Rejuvenate in the heart of untouched nature.",
-    image: 'https://i.ytimg.com/vi/9admKGpM3A0/maxresdefault.jpg',
-    link: "#",
-  },
-  {
-    title: "Desert Oasis",
-    description: "Experience tranquility in a remote desert escape.",
-    image: 'https://i.ytimg.com/vi/9admKGpM3A0/maxresdefault.jpg',
-    link: "#",
-  },
+    title: "ML Chatbot",
+    description: "Developed a chatbot service using Sentence Transformer and Flask. Deployed on AWS EC2. Database is MongoDB.",
+    image: mlchatbot,
+    link: "https://colab.research.google.com/drive/1RPltZyglHQ8XwLTNnkzrlS3MC2zyRbU3?usp=sharing",
+  }
 ];
 
 const Home = () => {
@@ -269,7 +260,7 @@ This journey reflects not just code but creativity, collaboration, and consisten
           </div>
           <div className='p-2 m-2'>
             <div className='flex justify-center'>
-              <Button urlto="projects" className='bg-button-bg text-button-text'>View More</Button>
+              {/* <Button urlto="projects" className='bg-button-bg text-button-text'>View More</Button> */}
             </div>
           </div>
         </SectionWrapper>

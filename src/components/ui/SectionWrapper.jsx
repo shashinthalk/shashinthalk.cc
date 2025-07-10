@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const SectionWrapper = ({ children, className = "" }) => {
   return (
@@ -6,6 +7,11 @@ const SectionWrapper = ({ children, className = "" }) => {
       <div className="container mx-auto">{children}</div>
     </section>
   );
+};
+
+SectionWrapper.propTypes = {
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string
 };
 
 export default SectionWrapper;

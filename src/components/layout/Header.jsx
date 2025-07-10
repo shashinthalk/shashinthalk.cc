@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from "react-router-dom"
 import { useEffect, useState } from 'react';
 import { CgMenuGridO } from "react-icons/cg";
@@ -48,8 +49,8 @@ export default function Header() {
               <nav className='hidden md:block'>
                   <ul className="flex space-x-6 items-center">
                       {
-                        navigation.map((navItem) => (
-                          <li><Link to={navItem.to} className="text-lg hover:text-links-hover">{navItem.name}</Link></li>
+                        navigation.map((navItem, index) => (
+                          <li key={`nav-${index}`}><Link to={navItem.to} className="text-lg hover:text-links-hover">{navItem.name}</Link></li>
                         ))
                       }
                       <li>

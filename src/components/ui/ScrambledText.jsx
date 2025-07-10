@@ -1,3 +1,5 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "gsap/SplitText";
@@ -70,6 +72,16 @@ const ScrambledText = ({
       <p>{children}</p>
     </div>
   );
+};
+
+ScrambledText.propTypes = {
+  radius: PropTypes.number,
+  duration: PropTypes.number,
+  speed: PropTypes.number,
+  scrambleChars: PropTypes.string,
+  className: PropTypes.string,
+  style: PropTypes.object,
+  children: PropTypes.node.isRequired
 };
 
 export default ScrambledText;

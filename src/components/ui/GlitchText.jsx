@@ -1,3 +1,4 @@
+import React from 'react';
 const GlitchText = ({
     children,
     speed = 0.5,

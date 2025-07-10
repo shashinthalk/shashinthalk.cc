@@ -1,3 +1,5 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 import { useEffect, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -221,7 +223,7 @@ const Map = ({
 
           // Add new route path
           if (routePathRef.current && mapInstanceRef.current) {
-            const routePath = L.polyline(coordinates, {
+            L.polyline(coordinates, {
               color: '#2196F3',
               opacity: 0.6,
               weight: 4
@@ -260,6 +262,23 @@ const Map = ({
       className="w-full h-[500px] rounded-lg overflow-hidden shadow-lg"
     />
   );
+};
+
+Map.propTypes = {
+  center: PropTypes.arrayOf(PropTypes.number),
+  zoom: PropTypes.number,
+  markers: PropTypes.arrayOf(
+    PropTypes.shape({
+      position: PropTypes.arrayOf(PropTypes.number).isRequired,
+      title: PropTypes.string,
+      description: PropTypes.string,
+      isLive: PropTypes.bool
+    })
+  ),
+  dragging: PropTypes.bool,
+  zoomControl: PropTypes.bool,
+  scrollWheelZoom: PropTypes.bool,
+  onStart: PropTypes.bool
 };
 
 export default Map;

@@ -1,6 +1,8 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 import { Helmet } from "react-helmet";
 
-export default function MetaTagManager( {title, description} ) {
+export default function MetaTagManager({ title, description }) {
     return (
     <>
       <Helmet>
@@ -21,3 +23,8 @@ export default function MetaTagManager( {title, description} ) {
     </>
   );
 }
+
+MetaTagManager.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired
+};

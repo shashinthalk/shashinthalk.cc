@@ -1,3 +1,5 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 import { IoIosCloseCircle } from "react-icons/io";
 
@@ -28,3 +30,14 @@ export default function SideBarPannel( {navItems, className, onClose} ) {
         </div>
     )
 }
+
+SideBarPannel.propTypes = {
+  navItems: PropTypes.arrayOf(
+    PropTypes.shape({
+      to: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired
+    })
+  ).isRequired,
+  className: PropTypes.string,
+  onClose: PropTypes.func.isRequired
+};

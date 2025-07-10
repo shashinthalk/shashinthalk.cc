@@ -1,3 +1,4 @@
+import React from 'react';
 import SectionWrapper from '../ui/SectionWrapper';
 import SectionHeading from '../ui/SectionHeading';
 
@@ -11,7 +12,7 @@ export default function Footer() {
                 DescriptionStyle='text-heading-text'
                 title="shashinthalk.cc"
                 subtitle="Crafted with code, creativity, and coffee.
-                  Let’s build something meaningful together."
+                  Let's build something meaningful together."
               />
             </SectionWrapper>
             <div className="flex  border-t border-gray-300 p-4 text-white">

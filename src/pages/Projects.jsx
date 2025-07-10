@@ -1,3 +1,4 @@
+import React from 'react';
 import SectionHeading from '../components/ui/SectionHeading';
 import SectionWrapper from '../components/ui/SectionWrapper';
 import MetaTagManager from "../components/layout/MetaTagManager";
