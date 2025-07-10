@@ -1,0 +1,44 @@
+name: Build & Deploy shashinthalk.cc
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Build React app
+      run: |
+        npm install
+        npm run build
+
+    - name: Copy files to server via SSH
+      uses: appleboy/scp-action@v0.1.7
+      with:
+        host: ${{ secrets.SERVER_IP }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        source: "build/*"
+        target: "/var/www/react-app"
+
+    - name: SSH and restart Docker container
+      uses: appleboy/ssh-action@v1.0.0
+      with:
+        host: ${{ secrets.SERVER_IP }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        script: |
+          docker stop react-container || true
+          docker rm react-container || true
+          docker run -d --name react-container -p 3000:80 -v /var/www/react-app:/usr/share/nginx/html nginx:alpine
