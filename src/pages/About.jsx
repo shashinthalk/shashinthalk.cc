@@ -14,7 +14,7 @@ const About = () => {
   const collageImages = [
     {
       url: isoc1,
-      alt: 'Internet Society Sri Lanka Chapter'
+      alt: 'Internet Society Sri Lankan Chapter'
     },
     {
       url: isoc2,
