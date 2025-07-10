@@ -41,4 +41,4 @@ jobs:
         script: |
           docker stop react-container || true
           docker rm react-container || true
-          docker run -d --name react-container -p 3000:80 -v /var/www/react-app/build:/usr/share/nginx/html nginx:alpin
+          docker run -d --name react-container -p 3000:80 -v /var/www/react-app/build:/usr/share/nginx/html nginx:alpine
